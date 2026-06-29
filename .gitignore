@@ -5,8 +5,7 @@ data/raw/*
 !data/raw/.gitkeep
 ★중앙회 제공데이터/
 *.xlsx
-# (단, 합성 샘플은 공개 허용)
-!data/sample/*.xlsx
+# 합성 샘플 xlsx도 추적 안 함 → 필요 시 scripts/make_sample_data.py 로 재생성
 
 # 원본 PDF/HWP 양식 (배포 금지 자료)
 *.hwp
